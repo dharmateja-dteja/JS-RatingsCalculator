@@ -53,7 +53,6 @@ function collect_ratings()
         rating = parseInt(temp)
         ratings.count += parseInt(element.value)
         ratings.sum += parseInt(element.value) * rating;
-        console.log(ratings.sum)
    });
 
    if (ratings.count !== 0) 
